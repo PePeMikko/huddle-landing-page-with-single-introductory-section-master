@@ -1,0 +1,60 @@
+.attribution { 
+    font-size: 0.6875rem; 
+    text-align: center;
+ }
+
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-image: url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    display: flex;
+}
+
+h1 {
+    font-size: 5vh;
+}
+
+p {
+    font-size: 2vh;
+}
+
+h1, p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600px;
+    color: whitesmoke;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 0 0 3%;
+}
+
+.logo {
+    width: 50%;
+    margin: 5% 0 0 10%;
+}
+
+.window {
+    margin: 20% 0 0 10%;
+    width: 80vh;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    margin: 12% 0 0 15%;
+}
+
+button {
+    width: 20%;
+    font-size: 2vh;
+    border-radius: 10rem;
+    color: hsl(300, 69%, 71%);
+}
